@@ -38,6 +38,7 @@ function install_toolchain() {
         echo 'Installing rustup...'
         curl https://sh.rustup.rs -sSf | sh
     fi
+    source ~/.cargo/env
     rustup target add i686-unknown-linux-gnu
     if ! bindgen --version &>/dev/null; then
         echo 'Installing bindgen...'
