@@ -2,7 +2,7 @@
 
 set -e -u -o pipefail
 
-readonly MRUSTC_VER='b5b7089'
+readonly MRUSTC_VER='ec907f5'
 readonly SDK_VER='2.4.1'
 
 readonly INSTALL_DIR="${HOME}/.esp-rs"
